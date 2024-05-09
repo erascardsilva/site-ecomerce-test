@@ -1,0 +1,32 @@
+.rodape {
+    background-color: #666;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dados,
+  .contato,
+  .redes-sociais {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .redes-sociais ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .redes-sociais ul li {
+    margin-bottom: 10px;
+  }
+  
+  .redes-sociais ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

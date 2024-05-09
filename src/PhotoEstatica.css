@@ -1,0 +1,45 @@
+.angry-grid {
+  display: grid; 
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px; /* Adiciona uma pequena separação entre as divs */
+  height: 20%; /* Ajusta a altura do grid para ser menor */
+  width: 70%; /* Ajusta a largura do grid para ser menor */
+  margin: auto; /* Centraliza o grid */
+}
+
+#item-0, #item-1, #item-2, #item-3 {
+  background-color: transparent; /* Faz com que as divs tenham fundo transparente */
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+
+#item-0 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 3;
+}
+
+#item-1 {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 6;
+}
+
+#item-2 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+
+#item-3 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
