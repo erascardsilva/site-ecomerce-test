@@ -15,9 +15,9 @@ const Rodape = () => {
           </div>
           <div className="col-md-6 text-md-right mt-3 mt-md-0">
             <ul className="list-unstyled">
-              <li><a href="#" className="text-dark">LinkedIn</a></li>
-              <li><a href="#" className="text-dark">GitHub</a></li>
-              <li><a href="#" className="text-dark">Twitter</a></li>
+              <li><a href=" " className="text-dark">LinkedIn</a></li>
+              <li><a href=" " className="text-dark">GitHub</a></li>
+              <li><a href=" " className="text-dark">Twitter</a></li>
             </ul>
           </div>
         </div>
